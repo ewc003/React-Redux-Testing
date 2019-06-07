@@ -10,7 +10,7 @@
     // with that data and dispatches it
 // }
 export default ({ dispatch }) => next => action => {
-    debugger;
+    // debugger;
     if (!action.payload || !action.payload.then) {
         return next(action);
     }
